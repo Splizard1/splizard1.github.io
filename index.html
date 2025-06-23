@@ -9,11 +9,12 @@
   <body>
     <header>
       <nav class="navbar">
-        <h1 class="logo">Shine Caravan Cleaning</h1>
+        <h1 class="logo">Shine Caravan Cleaning - West Wales</h1>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#booking">Booking</a></li>
+          <li><a href="caravan.html">Hire Caravan</a></li>
+          <!-- NEW LINK -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -21,20 +22,89 @@
 
     <section class="hero">
       <h2>Premium Caravan Cleaning & Hire</h2>
-      <p>Book a cleaning or hire our caravan today!</p>
-      <a href="#booking" class="btn">Get Started</a>
+      <p>We bring back the shine — inside and out.</p>
+      <a href="#booking" class="btn">Book Now</a>
     </section>
 
     <section id="about" class="section">
       <h2>About Us</h2>
       <p>
-        We provide professional caravan cleaning and offer a fully equipped
-        caravan for hire.
+        We’re a local run business based in West Wales who have a passion for
+        caravanning!
+        <br />
+        We are dedicated to making caravans sparkle and giving families
+        memorable getaways with our fully equipped rental caravan.
       </p>
     </section>
 
+    <section id="services" class="section services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img src="images/Person-vacuuming.jpg" alt="Handover Clean" />
+          <h3>Handover Clean</h3>
+          <p>A quicker, but still thorough, clean for between guests.</p>
+        </div>
+        <div class="card">
+          <img src="images/wiping-surface.jpg" alt="Deep clean" />
+          <h3>Interior Detail</h3>
+          <p>Deep clean of kitchen, toilet, upholstery, and storage areas.</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200?text=Full+Hire+Caravan"
+            alt="Hire Caravan"
+          />
+          <h3>Caravan Hire</h3>
+          <p>
+            Enjoy a getaway in our homely caravan in New Quay, Wales – fully
+            equipped and spotless.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="section booking-cta">
+      <h2>Ready to Book?</h2>
+      <p>Schedule a clean or hire the caravan online – quick and easy.</p>
+      <a href="#contact" class="btn">Contact Us to Book</a>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+      <h2>What Our Customers Say</h2>
+      <blockquote>
+        “Absolutely spotless! The caravan looked brand new. Great service!”
+      </blockquote>
+      <p>– Sarah D.</p>
+      <blockquote>
+        “The hire van was immaculate and perfect for our weekend trip. Highly
+        recommended.”
+      </blockquote>
+      <p>– James P.</p>
+    </section>
+
+    <section id="contact" class="section contact-form">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="you@example.com" required />
+
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          placeholder="Tell us what you need..."
+          required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
     <footer>
-      <p>&copy; 2025 Shine Caravan Cleaning</p>
+      <p>&copy; 2025 Shine Caravan Cleaning | <a href="#contact">Contact</a></p>
     </footer>
 
     <script src="script.js"></script>

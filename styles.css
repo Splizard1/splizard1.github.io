@@ -51,3 +51,109 @@ footer {
   background: #2c3e50;
   color: white;
 }
+/* Add to your existing CSS */
+
+.section {
+  padding: 3em 2em;
+  background: white;
+  text-align: center;
+}
+
+.services .service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.card {
+  background: #f0f0f0;
+  padding: 1em;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.booking-cta {
+  background: #e67e22;
+  color: white;
+}
+
+.booking-cta .btn {
+  background: white;
+  color: #e67e22;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin: 1em auto;
+  max-width: 600px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #2c3e50;
+  color: white;
+  padding: 0.8em 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.small-hero {
+  background: url("https://source.unsplash.com/1600x400/?caravan,travel")
+    no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.features-list li {
+  padding: 0.5em 0;
+  font-size: 1.1em;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  padding: 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

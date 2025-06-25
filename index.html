@@ -3,27 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shine Caravan Cleaning</title>
+    <title>Dolphin Caravan Cleaning Services</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
-        <h1 class="logo">Shine Caravan Cleaning - West Wales</h1>
-        <ul class="nav-links">
+        <a href="index.html" class="logo">Dolphin Caravan Cleaning Services</a>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul class="nav-links" id="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="caravan.html">Hire Caravan</a></li>
-          <!-- NEW LINK -->
+          <li><a href="clean.html">Clean</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <section class="hero">
-      <h2>Premium Caravan Cleaning & Hire</h2>
-      <p>We bring back the shine — inside and out.</p>
-      <a href="#booking" class="btn">Book Now</a>
+      <a href="#contact" class="btn">Book Now</a>
     </section>
 
     <section id="about" class="section">
@@ -40,61 +39,52 @@
     <section id="services" class="section services">
       <h2>Our Services</h2>
       <div class="service-cards">
-        <div class="card">
-          <img src="images/Person-vacuuming.jpg" alt="Handover Clean" />
-          <h3>Handover Clean</h3>
-          <p>A quicker, but still thorough, clean for between guests.</p>
-        </div>
-        <div class="card">
-          <img src="images/wiping-surface.jpg" alt="Deep clean" />
-          <h3>Interior Detail</h3>
-          <p>Deep clean of kitchen, toilet, upholstery, and storage areas.</p>
-        </div>
-        <div class="card">
-          <img
-            src="images/newq.jpg"
-            alt="Hire Caravan"
-          />
-          <h3>Caravan Hire</h3>
-          <p>
-            Enjoy a getaway in our homely caravan in New Quay, Wales – fully
-            equipped and spotless.
-          </p>
-        </div>
+        <a href="clean.html" class="card-link">
+          <div class="card">
+            <img src="images/Person-vacuuming.jpg" alt="Handover Clean" />
+            <h3>Handover Clean</h3>
+            <p>A quicker, but still thorough, clean for between guests.</p>
+          </div>
+        </a>
+
+        <a href="caravan.html" class="card-link">
+          <div class="card">
+            <img src="images/newq.jpg" alt="Deep clean" />
+            <h3>Hire our caravan</h3>
+            <p>
+              Enjoy a getaway in our homely caravan in New Quay, Wales – fully
+              equipped and very clean.
+            </p>
+          </div>
+        </a>
+
+        <a href="other-caravans.html" class="card-link">
+          <div class="card">
+            <img src="images/newq.jpg" alt="Hire Caravan" />
+            <h3>Other Caravans</h3>
+            <p>
+              If ours isn't available, or you are looking for something else,
+              here are some other caravans we can vouch for.
+            </p>
+          </div>
+        </a>
       </div>
     </section>
 
-    <section id="booking" class="section booking-cta">
+    <section id="contact" class="section booking-cta">
       <h2>Ready to Book?</h2>
-      <p>Schedule a clean or hire the caravan online – quick and easy.</p>
-      <a href="#contact" class="btn">Contact Us to Book</a>
+      <p>Message us on WhatsApp to book or ask questions.</p>
+      <a aria-label="Message us on WhatsApp" href="https://wa.me/447933335364">
+        <img alt="Chat on WhatsApp" src="images/WhatsAppMessage.png" />
+      </a>
     </section>
 
     <section id="testimonials" class="section testimonials">
       <h2>What Our Customers Say</h2>
-      <blockquote>
-        “Absolutely spotless! The caravan looked brand new. Great service!”
-      </blockquote>
-      <p>– Sarah D.</p>
-      <blockquote>
-        “The hire van was immaculate and perfect for our weekend trip. Highly
-        recommended.”
-      </blockquote>
-      <p>– James P.</p>
-    </section>
-
-    <section id="contact" class="section contact-form">
-      <h2>Contact Us</h2>
-      <h1>Email</h1>
-      <p>debrenney@gmail.com</p>
-      <h1>Number</h1>
-      <p>07933335364</p>
-      <a aria-label="Message us on WhatsApp" href="https://wa.me/447933335364"> <img alt="Chat on WhatsApp" src="images/WhatsAppMessage.png" />
-        <a> 
     </section>
 
     <footer>
-      <p>&copy; 2025 Shine Caravan Cleaning | <a href="#contact">Contact</a></p>
+      <p>&copy; 2025 Dolphin Caravan Cleaning Services</p>
     </footer>
 
     <script src="script.js"></script>
